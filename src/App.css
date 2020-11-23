@@ -28,19 +28,71 @@
   color: white;
 }
 
-.awesome {
-  color:  rgb(31,36, 54 );
-  background-color: white;
-  border: solid white;
-  width: 110px;
-  height: 35px;
-  
-
+#awesome-btn {
+  background-color: rgb(255,255,255);
+  color: rgb(51,56,72);
+  position: relative;
+  right: 535px;
+  top: 25px;
+  width: 200px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 10px;
 }
-.App {
+
+#iron-logo {
+  position: relative;
+  float: left;
+  margin-top: 30px;
+  margin-left: 65px;
+  height: 55px;
+}
+#iron-bar {
+  position: relative;
+  top: 50px;
+  left: 570px;
+}
+
+.footer-container h2 {
+  font-size: 28px;
+  position: relative;
+  left: 20px;
+  color: rgb(90,93 ,106);
+}
+
+.footer-container p {
+  position: relative;
+  left: 20px;
+  color: rgb(139, 138, 138);
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 110px;
+  text-align: left;
+}
+
+
+#header-div {
   background-color: rgb(31,36, 54 );
+  margin: 20px 20px 20px 20px;
+  height: 790px;
 }
 
+.text {
+  text-align: left;
+  font-size: 50px;
+  margin-left: 60px;
+  margin-top: 200px;
+  
+}
+.header-parag {
+  margin-top: -50px;
+  font-size: 28px;
+}
 .App-link {
   color: #61dafb;
 }
